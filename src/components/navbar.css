@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 40px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+
+.navbar-link:hover {
+  background-color: rgb(209, 209, 209);
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
